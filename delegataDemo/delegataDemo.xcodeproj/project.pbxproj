@@ -13,6 +13,7 @@
 		1B1271101D50C9980039E37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B12710E1D50C9980039E37C /* Main.storyboard */; };
 		1B1271121D50C9980039E37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1271111D50C9980039E37C /* Assets.xcassets */; };
 		1B1271151D50C9980039E37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1271131D50C9980039E37C /* LaunchScreen.storyboard */; };
+		1B12711E1D50CBFA0039E37C /* YYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B12711D1D50CBFA0039E37C /* YYScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1B1271111D50C9980039E37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1271141D50C9980039E37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B1271161D50C9980039E37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B12711C1D50CBFA0039E37C /* YYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYScrollView.h; sourceTree = "<group>"; };
+		1B12711D1D50CBFA0039E37C /* YYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				1B1271081D50C9980039E37C /* AppDelegate.h */,
 				1B1271091D50C9980039E37C /* AppDelegate.m */,
+				1B12711C1D50CBFA0039E37C /* YYScrollView.h */,
+				1B12711D1D50CBFA0039E37C /* YYScrollView.m */,
 				1B12710B1D50C9980039E37C /* ViewController.h */,
 				1B12710C1D50C9980039E37C /* ViewController.m */,
 				1B12710E1D50C9980039E37C /* Main.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B12710D1D50C9980039E37C /* ViewController.m in Sources */,
+				1B12711E1D50CBFA0039E37C /* YYScrollView.m in Sources */,
 				1B12710A1D50C9980039E37C /* AppDelegate.m in Sources */,
 				1B1271071D50C9980039E37C /* main.m in Sources */,
 			);

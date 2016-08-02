@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YYScrollView.h"
 @interface ViewController ()
 
 @end
@@ -16,8 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self setupUI];
 }
+
+#pragma mark -设置界面
+- (void)setupUI {
+    
+    YYScrollView *SV = [[YYScrollView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    SV.backgroundColor = [UIColor darkGrayColor];
+    SV.center = self.view.center;
+    
+    [self.view addSubview:SV];
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
