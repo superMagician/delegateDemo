@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 #import "YYScrollView.h"
-@interface ViewController ()
+@interface ViewController ()<YYScrollViewDelegate>
 
+@property (nonatomic, weak)UIImageView *imageView;
 @end
 
 @implementation ViewController
@@ -19,6 +20,13 @@
     
     [self setupUI];
 }
+#pragma mark -YYScrollViewDelegate
+
+- (UIView *)要缩放的视图 {
+    
+    return _imageView;
+}
+
 
 #pragma mark -设置界面
 - (void)setupUI {
@@ -28,7 +36,16 @@
     SV.center = self.view.center;
     
     [self.view addSubview:SV];
+    UIImage *image = [UIImage imageNamed:@"20150528163520_NBVUs"];
+    UIImageView *imageV = [[UIImageView alloc] initWithFrame:SV.bounds];
 
+    imageV.image = image;
+    
+    [SV insertSubview:imageV atIndex:0];
+    
+    SV.delegate = self;
+    
+    _imageView = imageV;
 }
 
 

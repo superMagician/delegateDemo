@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "YYScrollViewDelegate.h"
 @interface YYScrollView : UIView
-
+@property (nonatomic, weak) id<YYScrollViewDelegate> delegate;
 @end

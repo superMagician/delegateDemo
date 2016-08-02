@@ -29,6 +29,7 @@
 		1B1271161D50C9980039E37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B12711C1D50CBFA0039E37C /* YYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYScrollView.h; sourceTree = "<group>"; };
 		1B12711D1D50CBFA0039E37C /* YYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYScrollView.m; sourceTree = "<group>"; };
+		1BCA68091D50CFDE00BD3DE5 /* YYScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYScrollViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				1B12711D1D50CBFA0039E37C /* YYScrollView.m */,
 				1B12710B1D50C9980039E37C /* ViewController.h */,
 				1B12710C1D50C9980039E37C /* ViewController.m */,
+				1BCA68091D50CFDE00BD3DE5 /* YYScrollViewDelegate.h */,
 				1B12710E1D50C9980039E37C /* Main.storyboard */,
 				1B1271111D50C9980039E37C /* Assets.xcassets */,
 				1B1271131D50C9980039E37C /* LaunchScreen.storyboard */,
@@ -307,6 +309,7 @@
 				1B12711B1D50C9980039E37C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
